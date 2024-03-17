@@ -129,11 +129,16 @@
             background-color: #8b4513;
             color: #fff;
         }
+        .event-container {
+            max-height: 300px; /* Adjust height as needed */
+            overflow-y: auto;
+            margin-top: 20px;
+        }
         .event {
-            margin-bottom: 20px;
             padding: 10px 20px;
             background-color: #f5f5dc;
             border-radius: 5px;
+            margin-bottom: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             text-align: left;
         }
@@ -160,7 +165,7 @@
             </div>
             <div class="timeline">
                 <h2>My Career Timeline</h2>
-                <div class="timeline-chart">
+                <div class="event-container">
                     <div class="event">
                         <h3>2020, March</h3>
                         <p>Graduated Bachelor of Arts in English Literature, Communication and Journalism from Assumption College Autonomous, Changanacherry.</p>
