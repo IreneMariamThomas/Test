@@ -9,7 +9,7 @@
         body, html {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Arial', sans-serif; /* Enhanced font style */
             background: linear-gradient(to right, #d8e6d4, #eae0c8);
             color: #333;
             height: 100%;
@@ -42,12 +42,12 @@
             color: #007bff;
         }
         h2 {
-            font-size: 28px; /* Increased font size */
-            margin-top: 30px; /* Added space between the title and event chart */
-            margin-bottom: 30px; /* Added space between the title and event chart */
-            color: #4CAF50; /* Modified font color */
-            text-transform: uppercase; /* Added text transformation */
-            letter-spacing: 2px; /* Added letter spacing */
+            font-size: 28px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color: #4CAF50;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
         h3 {
             font-size: 20px;
@@ -89,29 +89,30 @@
         .timeline {
             margin-top: 40px;
             overflow-y: auto;
-            max-height: 400px; /* Increased height */
-            width: 100%; /* Added width */
+            max-height: 400px;
+            width: 100%;
         }
         .timeline-chart {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            width: 100%; /* Added width */
+            width: 100%;
         }
         .event {
             margin-bottom: 20px;
+            font-style: italic; /* Italicized events */
         }
         .event h4 {
             margin-top: 0;
-            font-size: 20px; /* Increased font size */
-            color: #4CAF50; /* Modified font color */
-            text-transform: uppercase; /* Added text transformation */
-            letter-spacing: 1px; /* Added letter spacing */
+            font-size: 20px;
+            color: #4CAF50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         .event p {
-            font-size: 16px; /* Increased font size */
-            line-height: 1.6; /* Increased line height */
-            color: #333; /* Modified font color */
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
         }
     </style>
 </head>
