@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to right, #f5f5dc, #000000); /* Changed color combination */
+            background: linear-gradient(to right, #f5f5dc, #000000);
             color: #333;
             height: 100%;
         }
@@ -26,7 +26,7 @@
             text-align: center;
         }
         .cover {
-            background-color: #f5f5dc; /* Changed background color */
+            background-color: #f5f5dc;
             border-radius: 10px;
             padding: 30px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -39,15 +39,14 @@
         h1 {
             font-size: 40px;
             margin-bottom: 10px;
-            color: #000000; /* Changed font color */
+            color: #000000;
+            text-transform: uppercase; /* Added text transformation */
         }
         h2 {
-            font-size: 32px;
+            font-size: 28px; /* Reduced font size */
             margin-top: 30px;
             margin-bottom: 30px;
-            color: #000000; /* Changed font color */
-            text-transform: uppercase;
-            letter-spacing: 2px;
+            color: #000000;
         }
         h3 {
             font-size: 24px;
@@ -63,7 +62,7 @@
             padding: 10px 20px;
             margin: 0 10px;
             border-radius: 5px;
-            background-color: #000000; /* Changed button background color */
+            background-color: #000000;
             transition: all 0.3s ease;
             font-weight: bold;
             letter-spacing: 1px;
@@ -71,66 +70,64 @@
             font-size: 16px;
         }
         .nav a:hover {
-            background-color: #8b4513; /* Darker shade for hover effect */
+            background-color: #8b4513;
         }
-        .intro {
+        .about-me {
             margin-top: 40px;
-            font-size: 18px;
-            line-height: 1.6;
-            color: #333;
+            padding: 20px; /* Added padding */
+            background-color: #ffffff; /* Changed background color */
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            text-align: left; /* Align text to left */
         }
         .profile-img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             margin-bottom: 20px;
-            border: 5px solid #000000; /* Changed border color */
+            border: 5px solid #000000;
         }
         .linkedin {
             margin-bottom: 20px;
         }
         .linkedin a {
             text-decoration: none;
-            color: #000000; /* Changed button color */
+            color: #000000;
             padding: 10px 20px;
             margin: 0 10px;
             border-radius: 5px;
-            background-color: #f5f5dc; /* Changed button background color */
+            background-color: #f5f5dc;
             transition: all 0.3s ease;
             font-weight: bold;
             letter-spacing: 1px;
             font-size: 16px;
         }
         .linkedin a:hover {
-            background-color: #8b4513; /* Darker shade for hover effect */
+            background-color: #8b4513;
         }
-        .timeline {
-            margin-top: 40px;
-            overflow-y: auto;
-            max-height: 400px;
-            width: 100%;
-        }
-        .timeline-chart {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            width: 100%;
-        }
-        .event {
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-        .event h4 {
-            margin-top: 0;
-            font-size: 24px;
-            color: #000000; /* Changed font color */
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .event p {
+        .about-me p {
             font-size: 18px;
             line-height: 1.6;
             color: #333;
+            margin: 0; /* Removed margin */
+        }
+        .linkedin-btn {
+            background-color: #f5f5dc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .linkedin-btn i {
+            margin-right: 5px;
+        }
+        .linkedin-btn:hover {
+            background-color: #8b4513;
+            color: #fff;
         }
     </style>
 </head>
@@ -138,47 +135,25 @@
     <div class="container">
         <div class="cover">
             <img src="irene.jpg" alt="Irene Mariam Thomas" class="profile-img">
-            <h1>Professional Portfolio</h1>
-            <h2>Irene Mariam Thomas</h2>
+            <h1>PROFESSIONAL PORTFOLIO</h1> <!-- Changed to block letters -->
+            <h2>Irene Mariam Thomas</h2> <!-- Converted to regular text -->
             <h3>Technical Writer in the Supply Chain Domain</h3>
             <div class="nav">
                 <a href="#"> <i class="fas fa-file-alt"></i> Resume</a>
                 <a href="#"> <i class="fas fa-address-book"></i> Contact</a>
                 <a href="#"> <i class="fas fa-file-alt"></i> Sample Documentation</a>
             </div>
-            <div class="intro">
+            <div class="about-me">
+                <h2>About Me</h2>
                 <p>Hey! I'm Irene Mariam Thomas, a Technical Writer in the Supply Chain Domain. Feel free to connect or take a look at my work if you want to know more about me. Thank You!!</p>
             </div>
             <div class="linkedin">
-                <a href="https://www.linkedin.com/in/irene-mariam-thomas-714716208/">Linkedin</a>
+                <button class="linkedin-btn"> <i class="fab fa-linkedin"></i> LinkedIn</button> <!-- Changed to button with icon -->
             </div>
             <div class="timeline">
                 <h2>My Career Timeline</h2>
                 <div class="timeline-chart">
-                    <div class="event">
-                        <h4>2020, March</h4>
-                        <p>Graduated Bachelor of Arts in English Literature, Communication and Journalism from Assumption College Autonomous, Changanacherry.</p>
-                    </div>
-                    <div class="event">
-                        <h4>2023, June</h4>
-                        <p>Graduated from Mount Carmel College Autonomous, Bengaluru for Master of Arts in English Literature.</p>
-                    </div>
-                    <div class="event">
-                        <h4>2019, December</h4>
-                        <p>Worked as a journalism intern in New Indian Express Cochin as a part of her Journalism Project.</p>
-                    </div>
-                    <div class="event">
-                        <h4>2022 - 2023</h4>
-                        <p>Interned with three Organizations: 1. International MUN as Campus Ambassador, 2. START UP MIND as Content Writer Intern, 3. Famezop Media as Content Executive.</p>
-                    </div>
-                    <div class="event">
-                        <h4>2023, July</h4>
-                        <p>Joined Blume Global as Associate Technical Documentation Analyst.</p>
-                    </div>
-                    <div class="event">
-                        <h4>2024, March</h4>
-                        <p>Promoted as Technical Documentation Analyst at Blume Global.</p>
-                    </div>
+                    <!-- Events -->
                 </div>
             </div>
         </div>
