@@ -73,8 +73,8 @@
             background-color: #5E1741;
         }
         .about-me {
-            margin-top: 40px;
-            padding: 20px;
+            margin-top: 20px; /* Reduced margin */
+            padding: 10px; /* Reduced padding */
             background-color: #E7D3CC;
             border-radius: 10px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -88,6 +88,7 @@
             border: 5px solid #1E0233;
         }
         .linkedin {
+            margin-top: 20px; /* Adjusted margin */
             margin-bottom: 20px;
         }
         .linkedin a {
@@ -132,7 +133,7 @@
             color: #fff;
         }
         .event-container {
-            max-height: 300px;
+            max-height: 400px; /* Increased height */
             overflow-y: auto;
             margin-top: 20px;
         }
@@ -143,6 +144,14 @@
             margin-bottom: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             text-align: left;
+        }
+        .event h3 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        .event h3 i {
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -158,39 +167,47 @@
                 <a href="#"> <i class="fas fa-address-book"></i> Contact</a>
                 <a href="#"> <i class="fas fa-file-alt"></i> Sample Documentation</a>
             </div>
+            <div class="linkedin">
+                <button class="linkedin-btn"> <i class="fab fa-linkedin"></i> LinkedIn</button>
+            </div>
             <div class="about-me">
                 <h2>About Me</h2>
                 <p>Hey! I'm Irene Mariam Thomas, a Technical Writer in the Supply Chain Domain. Feel free to connect or take a look at my work if you want to know more about me. Thank You!!</p>
-            </div>
-            <div class="linkedin">
-                <button class="linkedin-btn"> <i class="fab fa-linkedin"></i> LinkedIn</button>
             </div>
             <div class="timeline">
                 <h2>My Career Timeline</h2>
                 <div class="event-container">
                     <div class="event">
-                        <h3>2020, March</h3>
-                        <p>Graduated Bachelor of Arts in English Literature, Communication and Journalism from Assumption College Autonomous, Changanacherry.</p>
+                        <h3><i class="fas fa-graduation-cap"></i> 2024, March</h3>
+                        <p>Promoted as Technical Documentation Analyst at Blume Global.</p>
                     </div>
                     <div class="event">
-                        <h3>2023, June</h3>
-                        <p>Graduated from Mount Carmel College Autonomous, Bengaluru for Master of Arts in English Literature.</p>
-                    </div>
-                    <div class="event">
-                        <h3>2019, December</h3>
-                        <p>Worked as a journalism intern in New Indian Express Cochin as a part of her Journalism Project.</p>
-                    </div>
-                    <div class="event">
-                        <h3>2022 - 2023</h3>
-                        <p>Interned with three Organizations: 1. International MUN as Campus Ambassador, 2. START UP MIND as Content Writer Intern, 3. Famezop Media as Content Executive.</p>
-                    </div>
-                    <div class="event">
-                        <h3>2023, July</h3>
+                        <h3><i class="fas fa-user-graduate"></i> 2023, July</h3>
                         <p>Joined Blume Global as Associate Technical Documentation Analyst.</p>
                     </div>
                     <div class="event">
-                        <h3>2024, March</h3>
-                        <p>Promoted as Technical Documentation Analyst at Blume Global.</p>
+                        <h3><i class="fas fa-user-graduate"></i> 2023, June</h3>
+                        <p>Graduated from Mount Carmel College Autonomous, Bengaluru for Master of Arts in English Literature.</p>
+                    </div>
+                    <div class="event">
+                        <h3><i class="fas fa-user-graduate"></i> 2020, March</h3>
+                        <p>Graduated Bachelor of Arts in English Literature, Communication and Journalism from Assumption College Autonomous, Changanacherry.</p>
+                    </div>
+                    <div class="event">
+                        <h3><i class="fas fa-newspaper"></i> 2019, December</h3>
+                        <p>Worked as a journalism intern in New Indian Express Cochin as a part of her Journalism Project.</p>
+                    </div>
+                    <div class="event">
+                        <h3><i class="fas fa-briefcase"></i> 2022 - 2023 (1)</h3>
+                        <p>Interned with International MUN as Campus Ambassador.</p>
+                    </div>
+                    <div class="event">
+                        <h3><i class="fas fa-briefcase"></i> 2022 - 2023 (2)</h3>
+                        <p>Interned with START UP MIND as Content Writer Intern.</p>
+                    </div>
+                    <div class="event">
+                        <h3><i class="fas fa-briefcase"></i> 2022 - 2023 (3)</h3>
+                        <p>Interned with Famezop Media as Content Executive.</p>
                     </div>
                 </div>
             </div>
