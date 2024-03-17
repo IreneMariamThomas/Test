@@ -89,12 +89,23 @@
         .about-me h2 i {
             margin-right: 10px;
         }
+        .profile-img-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
         .profile-img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin-bottom: 20px;
             border: 5px solid #1E0233;
+            overflow: hidden;
+        }
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         .linkedin {
             margin-top: 20px; /* Adjusted margin */
@@ -167,8 +178,12 @@
 </head>
 <body>
     <div class="container">
+        <div class="profile-img-container">
+            <div class="profile-img">
+                <img src="irene.jpg" alt="Irene Mariam Thomas">
+            </div>
+        </div>
         <div class="cover">
-            <img src="irene.jpg" alt="Irene Mariam Thomas" class="profile-img">
             <h1>PROFESSIONAL PORTFOLIO</h1>
             <h2>Irene Mariam Thomas</h2>
             <h3>Technical Writer in the Supply Chain Domain</h3>
