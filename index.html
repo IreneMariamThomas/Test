@@ -11,7 +11,7 @@
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(to right, beige, black);
-            color: #333;
+            color: #fff;
             height: 100%;
         }
         .container {
@@ -26,7 +26,7 @@
             text-align: center;
         }
         .cover {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(0, 0, 0, 0.7);
             border-radius: 10px;
             padding: 30px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -37,24 +37,19 @@
             margin: 0;
         }
         h1 {
-            font-size: 42px;
+            font-size: 36px;
             margin-bottom: 10px;
-            color: #000;
         }
         h2 {
-            font-size: 28px;
+            font-size: 24px;
             margin-top: 0;
-            color: #555;
         }
         h3 {
-            font-size: 20px;
+            font-size: 18px;
             margin-bottom: 20px;
-            color: #777;
         }
         .nav {
             margin-top: 20px;
-            display: flex;
-            justify-content: center;
         }
         .nav a {
             text-decoration: none;
@@ -76,20 +71,30 @@
             margin-top: 40px;
             font-size: 16px;
             line-height: 1.6;
-            color: #333;
         }
         .profile-img {
-            width: 200px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             margin-bottom: 20px;
             border: 5px solid #fff;
+        }
+        .timeline {
+            margin-top: 50px;
+        }
+        .chart {
+            width: 100%;
+            height: 300px;
+            background-color: #333;
+            border-radius: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="cover">
-            <img src="irene_profile.jpg" alt="Irene's Profile Picture" class="profile-img">
+            <img src="irene.jpg" alt="Profile Image" class="profile-img">
             <h1>Professional Portfolio</h1>
             <h2>Irene Mariam Thomas</h2>
             <h3>Technical Writer in the Supply Chain Domain</h3>
@@ -100,6 +105,10 @@
             </div>
             <div class="intro">
                 <p>Hey! I'm Irene Mariam Thomas, a Technical Writer in the Supply Chain Domain. Feel free to connect or take a look at my work if you want to know more about me. Thank You!!</p>
+            </div>
+            <div class="timeline">
+                <h2>Timeline</h2>
+                <div class="chart"></div>
             </div>
         </div>
     </div>
