@@ -43,41 +43,61 @@
             padding: 30px;
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
             width: 100%; /* Adjusted width */
-            display: flex;
-            justify-content: space-between; /* Added space-between */
         }
-        .personal-info {
-            flex: 0 0 30%; /* Adjusted width */
-            background-color: #E7D3CC;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Added shadow */
-            text-align: left;
-            margin-right: 20px; /* Added margin */
+        h1, h2, h3 {
+            margin: 0;
         }
-        .personal-info h2 {
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #1E0233;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 36px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color: #1E0233;
+        }
+        h3 {
+            font-size: 24px;
             margin-bottom: 20px;
             color: #1E0233;
         }
-        .personal-info p {
+        .nav {
+            margin-top: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 25px; /* Increased padding */
+            margin: 0 20px; /* Increased margin */
+            border-radius: 5px;
+            background-color: #1E0233;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
             font-size: 16px;
-            color: #333;
-            margin-bottom: 10px;
+        }
+        .nav a:hover {
+            background-color: #5E1741;
         }
         .about-me {
-            flex: 0 0 65%; /* Adjusted width */
+            margin-top: 20px; /* Reduced margin */
+            padding: 10px; /* Reduced padding */
             background-color: #E7D3CC;
             border-radius: 10px;
-            padding: 30px; /* Increased padding */
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Added shadow */
             text-align: left;
+            width: 100%; /* Adjusted width */
         }
         .about-me h2 {
             display: flex;
             align-items: center;
             justify-content: center;
             margin-bottom: 20px;
-            color: #1E0233;
         }
         .about-me h2 i {
             margin-right: 10px;
@@ -107,7 +127,7 @@
         .linkedin a {
             text-decoration: none;
             color: #1E0233;
-            padding: 15px 30px; /* Increased padding */
+            padding: 10px 25px; /* Increased padding */
             margin: 0 20px; /* Increased margin */
             border-radius: 5px;
             background-color: #E7D3CC;
@@ -130,7 +150,7 @@
         .linkedin-btn {
             background-color: #E7D3CC;
             border: none;
-            padding: 15px 30px; /* Increased padding */
+            padding: 10px 20px;
             border-radius: 5px;
             transition: all 0.3s ease;
             font-weight: bold;
@@ -152,10 +172,10 @@
             margin-top: 20px;
         }
         .event {
-            padding: 20px;
+            padding: 10px 20px;
             background-color: #E7D3CC;
             border-radius: 5px;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             text-align: left;
         }
@@ -178,11 +198,15 @@
             </div>
         </div>
         <div class="cover">
-            <div class="personal-info">
-                <h2><i class="fas fa-user"></i> Personal Information</h2>
-                <p><i class="fas fa-envelope"></i> Email: irenemariam70@gmail.com</p>
-                <p><i class="fas fa-map-marker-alt"></i> Address: Bengaluru, India</p>
-                <p><i class="fas fa-briefcase"></i> Designation: Product Documentation Specialist, Wisetech Global India Pvt Ltd.</p>
+            <h2>Irene Mariam Thomas</h2>
+            <h3>Technical Writer in the Supply Chain Domain</h3>
+            <div class="nav">
+                <a href="#"> <i class="fas fa-file-alt"></i> Resume</a>
+                <a href="#"> <i class="fas fa-address-book"></i> Contact</a>
+                <a href="#"> <i class="fas fa-file-alt"></i> Sample Documentation</a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/irene-mariam-thomas-714716208/" class="linkedin-btn"> <i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
             <div class="about-me">
                 <h2><i class="fas fa-pen-nib"></i> About Me</h2> <!-- Added writer icon -->
