@@ -70,7 +70,7 @@
         .intro {
             margin-top: 40px;
             font-size: 16px;
-            line-height: 1.6;
+            line-height: 1.5;
         }
         .profile-img {
             width: 150px;
@@ -80,21 +80,33 @@
             border: 5px solid #fff;
         }
         .timeline {
-            margin-top: 50px;
+            margin-top: 40px;
         }
-        .chart {
-            width: 100%;
-            height: 300px;
-            background-color: #333;
-            border-radius: 10px;
+        .timeline-chart {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             margin-top: 20px;
+        }
+        .event {
+            flex: 1;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .event h4 {
+            margin-top: 0;
+            font-size: 18px;
+        }
+        .event p {
+            font-size: 16px;
+            line-height: 1.5;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="cover">
-            <img src="irene.jpg" alt="Profile Image" class="profile-img">
+            <img src="irene.jpg" alt="Irene Mariam Thomas" class="profile-img">
             <h1>Professional Portfolio</h1>
             <h2>Irene Mariam Thomas</h2>
             <h3>Technical Writer in the Supply Chain Domain</h3>
@@ -108,7 +120,24 @@
             </div>
             <div class="timeline">
                 <h2>Timeline</h2>
-                <div class="chart"></div>
+                <div class="timeline-chart">
+                    <div class="event">
+                        <h4>2017</h4>
+                        <p>Started Bachelor of Arts in English Literature, Communication and Journalism at Assumption College Autonomous, Changanacherry.</p>
+                    </div>
+                    <div class="event">
+                        <h4>2019</h4>
+                        <p>Worked as a journalism intern in New Indian Express Cochin.</p>
+                    </div>
+                    <div class="event">
+                        <h4>2020</h4>
+                        <p>Graduated Bachelor of Arts in English Literature, Communication and Journalism from Assumption College Autonomous, Changanacherry.</p>
+                    </div>
+                    <div class="event">
+                        <h4>2023</h4>
+                        <p>Graduated Master of Arts in English Literature from Mount Carmel College Autonomous, Bengaluru.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
