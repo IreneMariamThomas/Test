@@ -3,81 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, beige, black);
-            color: #fff;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 30px;
-            background-color: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-            text-align: center;
-        }
-        h1 {
-            color: #ffd700;
-            margin-bottom: 10px;
-            font-size: 32px;
-        }
-        h2 {
-            color: #f0e68c;
-            margin-top: 0;
-            font-size: 24px;
-        }
-        h3 {
-            color: #fff;
-            margin-bottom: 20px;
-            font-size: 18px;
-        }
-        .nav {
-            margin-top: 30px;
-        }
-        .nav a {
-            text-decoration: none;
-            color: #fff;
-            padding: 10px 20px;
-            margin: 0 10px;
-            border-radius: 5px;
-            background-color: #ffd700;
-            transition: all 0.3s ease;
-            font-size: 16px;
-        }
-        .nav a:hover {
-            background-color: #f0e68c;
-            color: #000;
-        }
-        .name {
-            margin-top: 50px;
-            font-size: 14px;
-            color: #fff;
-        }
-        .profile-img {
-            width: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>Irene Mariam Thomas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <div class="container">
-        <img src="https://via.placeholder.com/150" alt="Profile Image" class="profile-img">
-        <h1>Professional Portfolio</h1>
-        <h2>Irene Mariam Thomas</h2>
-        <h3>Product Documentation Specialist</h3>
-        <div class="nav">
-            <a href="#"> <i class="fas fa-file-alt"></i> Resume</a>
-            <a href="#"> <i class="fas fa-address-book"></i> Contact</a>
-            <a href="#"> <i class="fas fa-briefcase"></i> Works</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="content">
+            <h1>Hey, I'm Irene Mariam Thomas from Bengaluru.</h1>
+            <p>I work as a Product Documentation Specialist. Feel free to get in touch or take a look at my past work below.</p>
         </div>
-        <div class="name">Irene Mariam Thomas - Product Documentation Specialist</div>
-    </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="content">
+            <h1>Portfolio</h1>
+            <!-- Your portfolio items go here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h1>Contact Me</h1>
+            <p>Email: example@example.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Irene Mariam Thomas</p>
+    </footer>
 </body>
 </html>
